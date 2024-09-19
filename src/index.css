@@ -10,15 +10,15 @@
   --bgClr: #f8f9fd;
   --white: #ffffff;
   --black: black;
-  --textclr: #4f5e71;
+  /* --textclr: #ffffff; */
 
   --smallText: 12px;
 
   --bodyText: 16px;
   --subTitle: 18px;
   --heading: 26px;
-	--fontFamily: "Helvetica", sans-serif;
-	--fontFamily1: "Helvetica", serif;
+  --fontFamily: "Lato", sans-serif;
+  --fontFamily1: "Libre Baskerville", serif;
   
 }
 

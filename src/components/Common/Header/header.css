@@ -1,5 +1,5 @@
 .header-section {
-  background-color: #1e3d92; 
+  background-color: #252c67; 
   padding: 1px 0;
 }
 .header-section .navbar {
@@ -13,10 +13,10 @@
 }
 
 .book-now-btn {
-  margin-right: 20px; 
+  margin-right: 35px; 
 }
 .logo {
-  margin-left: 20px;
+  margin-left: 35px;
   max-height: 50px;
 }
 
