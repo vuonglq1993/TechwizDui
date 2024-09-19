@@ -13,7 +13,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col md="3" sm="6" className="footer_col">
-              <p className="fs-4 mb-5 text-decoration-underline">About us</p>
+              <p className="fs-5 mb-3 text-decoration-underline">About us</p>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <NavLink to="/"><p className="fs-6">About TravelSmart</p></NavLink>
@@ -27,7 +27,7 @@ const Footer = () => {
               </ListGroup>
             </Col>
             <Col md="3" sm="6" className="footer_col">
-              <p className="fs-4 mb-5 text-decoration-underline">Explorer</p>
+              <p className="fs-5 mb-3 text-decoration-underline">Explorer</p>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <NavLink to="/"><p className="fs-6">Tours Listing</p></NavLink>
@@ -42,7 +42,7 @@ const Footer = () => {
             </Col>
 
             <Col md="3" sm="6" className="footer_col">
-              <p className="fs-4 mb-5 text-decoration-underline">Quicklink</p>
+              <p className="fs-5 mb-3 text-decoration-underline">Quicklink</p>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <NavLink to="/"><p className="fs-6">Home</p></NavLink>
