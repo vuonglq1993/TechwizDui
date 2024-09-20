@@ -10,37 +10,42 @@ import group113 from "../../assets/images/about/Group 113.png";
 import group114 from "../../assets/images/about/Group 114.png";
 import group115 from "../../assets/images/about/Group 115.png";
 import group116 from "../../assets/images/about/Group 116.png";
+import thai from "../../assets/images/us/yyy.jpg";
+import vuong from "../../assets/images/us/vuong.jpg";
+import huy from "../../assets/images/us/huy.jpg";
+import tung from "../../assets/images/us/tung.jpg";
+import thay from "../../assets/images/us/thay.jpg";
 
 const About = () => {
   const Usdata = [
     {
       id: 1,
-      img: "path/to/image1.jpg",
-      name: "John Doe",
+      img: tung,
+      name: "Le Khanh Tung",
       desc: "Lead Developer with 10 years of experience in full-stack development.",
     },
     {
       id: 2,
-      img: "path/to/image2.jpg",
-      name: "Jane Smith",
+      img: vuong,
+      name: "Le Quy Vuong",
       desc: "Project Manager specializing in Agile methodologies and team leadership.",
     },
     {
       id: 3,
-      img: "path/to/image3.jpg",
-      name: "Emily Johnson",
+      img: thay,
+      name: "Trinh Quang Hoa",
       desc: "UX/UI Designer with a keen eye for detail and user-centered design.",
     },
     {
       id: 4,
-      img: "path/to/image4.jpg",
-      name: "Michael Brown",
+      img: huy,
+      name: "Dang Quang Huy",
       desc: "Backend Engineer with expertise in scalable architecture and databases.",
     },
     {
       id: 5,
-      img: "path/to/image5.jpg",
-      name: "Sarah Davis",
+      img: thai,
+      name: "Chu Nguyen Quang Thai",
       desc: "Marketing Specialist with a focus on digital strategy and branding.",
     },
   ];
