@@ -1,11 +1,7 @@
 import React, { useEffect } from "react";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import aboutImg from "../../assets/images/about/aboutimg.png";
 import "../About/about.css";
-import icons1 from "../../assets/images/icons/destination.png";
-import icons2 from "../../assets/images/icons/best-price.png";
-import icons3 from "../../assets/images/icons/quick.png";
 import bestPriceImg from "../../assets/images/about/bi_shield-check.png";
 import easyBookingImg from "../../assets/images/about/healthicons_i-schedule-school-date-time-outline.png";
 import customerServiceImg from "../../assets/images/about/ri_customer-service-2-line.png";
