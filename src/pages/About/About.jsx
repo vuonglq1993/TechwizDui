@@ -22,31 +22,36 @@ const About = () => {
       id: 1,
       img: tung,
       name: "Le Khanh Tung",
-      desc: "Lead Developer with 10 years of experience in full-stack development.",
+      position: "Chief Marketing Officer (CMO)",
+      desc: "Tung, an expert in digital marketing, leads our branding and marketing efforts, connecting Travel Smart with a global audience.",
     },
     {
       id: 2,
       img: vuong,
       name: "Le Quy Vuong",
-      desc: "Project Manager specializing in Agile methodologies and team leadership.",
+      position:"Chief Technology Officer (CTO)",
+      desc: "8 years of experience, drives technology development for Travel Smart, ensuring seamless and secure travel booking systems.",
     },
     {
       id: 3,
       img: thay,
       name: "Trinh Quang Hoa",
-      desc: "UX/UI Designer with a keen eye for detail and user-centered design.",
+      position:"CEO & Founder",
+      desc: "Over 10 years of experience in the travel industry, leading Travel Smart with a vision to innovate travel solutions.",
     },
     {
       id: 4,
       img: huy,
       name: "Dang Quang Huy",
-      desc: "Backend Engineer with expertise in scalable architecture and databases.",
+      position:"Chief Operations Officer (COO)",
+      desc: "7 years of expertise in optimizing backend processes for a seamless travel experience.",
     },
     {
       id: 5,
       img: thai,
-      name: "Chu Nguyen Quang Thai",
-      desc: "Marketing Specialist with a focus on digital strategy and branding.",
+      name: "Chu Ng Quang Thai",
+      position:"Head of Customer Experience",
+      desc: " 6 years of experience in customer service, dedicated to enhancing every traveler’s journey with exceptional support.",
     },
   ];
   useEffect(() => {
@@ -139,7 +144,6 @@ const About = () => {
           <Row className="mt-4 mb-4 align-items-center">
             <Col md="12">
               <h3 className="h2 fw-bold">Our Teams</h3>
-              <p className="mb-2 body-text">Lorem ipsum dolor sit amet</p>
             </Col>
             <Row>
               {Usdata.map((member) => (
@@ -151,8 +155,9 @@ const About = () => {
                       alt={member.name}
                     />
                     <div className="card-body">
-                    <h5 className="card-title">{member.name}</h5>
-                    <p className="card-text">{member.desc}</p>
+                    <p className="card-title fs-5 fw-bold">{member.name}</p>
+                    <p className="card-text fs-6 fw-semibold mt-3">{member.position}</p>
+                    <p className="card-text fs-6 mt-2">{member.desc}</p>
                   </div>
                   </div>
                 </Col>
