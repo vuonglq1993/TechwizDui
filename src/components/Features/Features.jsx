@@ -71,21 +71,21 @@ const Features = () => {
               </div>
             </Col>
             <Col lg = "6" md="6" sm = "12">
-              <p className="fs-6 m-3"><strong>lorem</strong></p>
-              <p className="fs-3 m-3"><strong>lorem</strong></p>
-            <p className = "fs-6 m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at fermentum nibh, at porttitor dui. Nulla rutrum rutrum consectetur. Etiam quis dui sit amet augue tempus mattis. Nam dictum maximus elit, at laoreet mi fermentum porta. Praesent ac dolor ante. Mauris dapibus elementum nisi a egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris maximus iaculis purus, eget fermentum ante viverra ac. Pellentesque ut fringilla nulla, sed pharetra odio. Suspendisse at facilisis risus, non finibus est. Donec imperdiet sit amet purus a accumsan. Etiam maximus mollis mi, in tempus urna convallis nec. Pellentesque lectus tellus, sagittis vitae commodo ac, tincidunt id neque.</p>
+              <p className="fs-6 m-3"><strong>Wanderlust Journeys</strong></p>
+              <p className="fs-3 m-3"><strong>Discover the world, effortlessly</strong></p>
+            <p className = "fs-6 m-3">At Wanderlust Journeys, we are dedicated to providing you with unforgettable travel experiences. Whether you're seeking adventure in the mountains, relaxation by the sea, or cultural immersion in bustling cities, we have something for everyone. Our team of travel experts works around the clock to ensure that every aspect of your journey is seamless, from start to finish.</p>
             <Row>
               <Col md="6">
-                <p className="text-success fs-1 mt-5 ms-2">10000+</p>
-                <p className="fs-6 mt-3 ms-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p className="text-success fs-1 mt-5 ms-2">10000+</p>
-                <p className="fs-6 mt-3 ms-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className="text-success fs-1 mt-5 ms-2">100+</p>
+                <p className="fs-6 mt-3 ms-2">Travel Destinations</p>
+                <p className="text-success fs-1 mt-5 ms-2">200+</p>
+                <p className="fs-6 mt-3 ms-2">Guided Tours.</p>
               </Col>
               <Col md="6">
-                <p className="text-success fs-1 mt-5 ms-2">10000+</p>
-                <p className="fs-6 mt-3 ms-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p className="text-success fs-1 mt-5 ms-2">10000+</p>
-                <p className="fs-6 mt-3 ms-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className="text-success fs-1 mt-5 ms-2">80+</p>
+                <p className="fs-6 mt-3 ms-2">Luxury Accommodations.</p>
+                <p className="text-success fs-1 mt-5 ms-2">150+</p>
+                <p className="fs-6 mt-3 ms-2">Happy Travelers Around the World.</p>
               </Col>
             </Row>
             </Col>
