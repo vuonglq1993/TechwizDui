@@ -20,6 +20,7 @@ const AdvanceSearch = () => {
     console.log("Guest ", value)
   }
 
+
   return (
       <>
           <section className="box-search-advance">
