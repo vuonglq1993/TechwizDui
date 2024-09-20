@@ -1,4 +1,5 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import Pagination from "../../components/Pagination/Pagination";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import { Container, Row, Col, Offcanvas } from "react-bootstrap";
@@ -12,6 +13,14 @@ const Tours = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const [curentpage, setCurrentPage] = useState(0);
+  const itemsPerPage = 6;
+  const offset = curentpage * itemsPerPage;
+  const currentItems = popularsData.slice(offset, offset + itemsPerPage);
+  const handlePageClick = ({ selected }) => {
+      setCurrentPage(selected);
+  };
 
   useEffect(() => {
     document.title = " Tours   ";
@@ -39,7 +48,7 @@ const Tours = () => {
                       </Col>
                       <Col xl="9" lg="8" md="12" sm="12">
                           <Row>
-                              {popularsData.map((val, inx) => {
+                              {currentItems.map((val, inx) => {
                                   return (
                                       <Col
                                           xl={4}
@@ -54,6 +63,10 @@ const Tours = () => {
                                   );
                               })}
                           </Row>
+                          <Pagination
+                                pageCount={Math.ceil(popularsData.length / itemsPerPage)}
+                                onPageChange={handlePageClick}
+                            />
                       </Col>
                   </Row>
               </Container>
