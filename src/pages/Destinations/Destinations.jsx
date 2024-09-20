@@ -24,7 +24,6 @@ const Destinations = () => {
   return (
       <>
           <Breadcrumbs title="Top Places" pagename="top-places" />
-          <AdvanceSearch />
           <section className="py-5">
               <Container>
                   <Row>

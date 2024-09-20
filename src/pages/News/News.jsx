@@ -60,7 +60,6 @@ const News = () => {
     return (
         <>
             <Breadcrumbs title="Travel News" pagename="News" />
-            <AdvanceSearch />
             <section className="py-5">
                 <Container>
                     <h1 className="h1 my-4">Latest Travel News</h1>
