@@ -17,10 +17,10 @@ const Footer = () => {
               <p className="fs-5 mb-3 text-decoration-underline">About us</p>
               <ListGroup variant="flush">
                 <ListGroup.Item>
-                  <NavLink to="/"><p className="fs-6">About TravelSmart</p></NavLink>
+                  <NavLink to="/about-us"><p className="fs-6">About TravelSmart</p></NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <NavLink to="/"><p className="fs-6">News</p></NavLink>
+                  <NavLink to="/news"><p className="fs-6">News</p></NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
                   <NavLink to="/"><p className="fs-6">Reviews</p></NavLink>
@@ -31,13 +31,13 @@ const Footer = () => {
               <p className="fs-5 mb-3 text-decoration-underline">Explorer</p>
               <ListGroup variant="flush">
                 <ListGroup.Item>
-                  <NavLink to="/"><p className="fs-6">Tours Listing</p></NavLink>
+                  <NavLink to="/tours"><p className="fs-6">Tours Listing</p></NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <NavLink to="/"><p className="fs-6">Top Places</p></NavLink>
+                  <NavLink to="/top-places"><p className="fs-6">Top Places</p></NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <NavLink to="/"><p className="fs-6">Gallery</p></NavLink>
+                  <NavLink to="/gallery"><p className="fs-6">Gallery</p></NavLink>
                 </ListGroup.Item>
               </ListGroup>
             </Col>
@@ -49,10 +49,10 @@ const Footer = () => {
                   <NavLink to="/"><p className="fs-6">Home</p></NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <NavLink to="/"><p className="fs-6">About Us</p></NavLink>
+                  <NavLink to="/about-us"><p className="fs-6">About Us</p></NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <NavLink to="/"><p className="fs-6">Contact</p></NavLink>
+                  <NavLink to="/contact-us"><p className="fs-6">Contact</p></NavLink>
                 </ListGroup.Item>
               </ListGroup>
             </Col>
