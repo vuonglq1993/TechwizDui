@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Gallery from "../../components/Gallery/Gallery";
-import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 
 const PhotoGallery = () => {

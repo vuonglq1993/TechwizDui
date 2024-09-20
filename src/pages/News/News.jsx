@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { Container, Row } from "react-bootstrap";
 import "../About/about.css";
-import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import img01 from "../../assets/images/new/01.jpg";
 import img04 from "../../assets/images/new/04.jpg";
 import img08 from "../../assets/images/new/08.jpg";

@@ -3,7 +3,6 @@ import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs'
 import { Col, Container, Row } from 'react-bootstrap'
 import { destinationsData } from '../../utils/data'
 import Cards from '../../components/Cards/Cards'
-import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import Pagination from '../../components/Pagination/Pagination'
 
 const Destinations = () => {
