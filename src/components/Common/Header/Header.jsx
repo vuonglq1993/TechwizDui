@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
-  Container,
   Navbar,
   Offcanvas,
   Nav,
-  NavDropdown,
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import BookingModal from "../../Booking Modal/BookingModal";
@@ -36,7 +34,7 @@ const Header = () => {
         <Navbar expand="lg" className="p-0 d-flex justify-content-between align-items-center">
           {/* Logo Section */}
           <Navbar.Brand>
-            <NavLink to="/">
+            <NavLink to="/TechwizDui">
               <img src={logo} alt="Travel Smart" className="logo" />
             </NavLink>
           </Navbar.Brand>
@@ -57,7 +55,7 @@ const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
-                <NavLink className="nav-link" to="/" onClick={closeMenu}>Home</NavLink>
+                <NavLink className="nav-link" to="/TechwizDui" onClick={closeMenu}>Home</NavLink>
                 <NavLink className="nav-link" to="/about-us" onClick={closeMenu}>ABOUT US</NavLink>
                 <NavLink className="nav-link" to="/tours" onClick={closeMenu}>TOURS</NavLink>
                 <NavLink className="nav-link" to="/news" onClick={closeMenu}>NEWS</NavLink>

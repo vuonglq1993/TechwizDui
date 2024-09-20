@@ -10,7 +10,6 @@ import Tour from "./pages/Fake/Tours";
 import TourDetails from "./pages/Tours/TourDetails";
 import Booking from "./pages/Booking/Booking";
 import TopPalces from "./pages/Destinations/Destinations";
-import PhotoGallary from "./pages/PhotoGallery/PhotoGallery";
 import PhotoGallery from "./pages/PhotoGallery/PhotoGallery";
 import News from "./pages/News/News";
 
