@@ -20,6 +20,7 @@ const AdvanceSearch = () => {
     console.log("Guest ", value)
   }
 
+
   return (
       <>
           <section className="box-search-advance">
@@ -81,7 +82,7 @@ const AdvanceSearch = () => {
                                   />
                               </div>
                               <div className="item-search bd-none">
-                                  <Link to="fake-search">
+                              <Link to="fake-search" style={{ textDecoration: "none" }}>
                                       <Button className="primaryBtn flex-even d-flex justify-content-center">
                                           <i className="bi bi-search me-2"></i>{" "}
                                           Search

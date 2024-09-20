@@ -2,12 +2,11 @@ import React from "react";
 import Banner from "../../components/Banner/Banner";
 import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import Features from "../../components/Features/Features";
-import { Container, Row, Col } from "react-bootstrap";
-
+import { Container, Row, Col, Button} from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import "./home.css";
 import Footerapp from "../../assets/images/footerapp/footerapp.png";
 import Gallery from "../../components/Gallery/Gallery";
@@ -99,7 +98,7 @@ const Home = () => {
           <Row>
             <Col md="12">
               <div className="main_heading">
-              <p className="fs-2 text-uppercase"> Popular Tours</p>
+                <p className="fs-2 text-uppercase"> Popular Tours</p>
               </div>
             </Col>
           </Row>
@@ -130,14 +129,12 @@ const Home = () => {
               </p>
             </Col>
             <Col md="4" className="text-center mt-3 mt-md-0">
-              <a
-                href="tel:6398312365"
-                className="secondary_btn bounce"
-                rel="no"
-              >
-                {" "}
-                Contact Us !
-              </a>
+              <Link to="contact-us" style={{ textDecoration: "none" }}>
+                <Button className="primaryBtn flex-even d-flex justify-content-center">
+                  <i className="bi bi-search me-2"></i>{" "}
+                  Contact Us
+                </Button>
+              </Link>
             </Col>
           </Row>
         </Container>
@@ -149,7 +146,7 @@ const Home = () => {
           <Row>
             <Col md="12">
               <div className="main_heading">
-              <p className="fs-2 text-uppercase"> experience</p>
+                <p className="fs-2 text-uppercase"> experience</p>
               </div>
             </Col>
           </Row>
@@ -178,8 +175,8 @@ const Home = () => {
               </Row>
             </Col>
             <Col md="6">
-              <img src={Footerapp} className="img-fluid"></img>            
-              </Col>
+              <img src={Footerapp} className="img-fluid"></img>
+            </Col>
           </Row>
         </Container>
       </section>
