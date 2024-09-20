@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "../About/about.css";
 import bestPriceImg from "../../assets/images/about/bi_shield-check.png";
 import easyBookingImg from "../../assets/images/about/healthicons_i-schedule-school-date-time-outline.png";

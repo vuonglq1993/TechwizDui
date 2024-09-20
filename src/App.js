@@ -10,7 +10,6 @@ import Tour from "./pages/Fake/Tours";
 import TourDetails from "./pages/Tours/TourDetails";
 import Booking from "./pages/Booking/Booking";
 import TopPalces from "./pages/Destinations/Destinations";
-import PhotoGallary from "./pages/PhotoGallery/PhotoGallery";
 import PhotoGallery from "./pages/PhotoGallery/PhotoGallery";
 import News from "./pages/News/News";
 
@@ -19,7 +18,7 @@ function App() {
       <>
           <Header />
           <Routes>
-              <Route path="/" element={<Home />} />
+              {/* <Route path="/" element={<Home />} /> */}
               <Route path="TechwizDui" element={<Home />} />
               <Route path="about-us" element={<About />} />
               <Route path="contact-us" element={<Contact />} />
