@@ -157,7 +157,7 @@ const About = () => {
                     </Row>
                     <Row className="mt-4"></Row>
                     <Row className="mt-4">
-                        <Col md="3">
+                        <Col md="3" sm="6" xs="6">
                             <img
                                 src={group113}
                                 alt="About Travel Smart"
@@ -165,7 +165,7 @@ const About = () => {
                                 style={{ maxWidth: "100%" }}
                             />
                         </Col>
-                        <Col md="3">
+                        <Col md="3" sm="6" xs="6">
                             <img
                                 src={group114}
                                 alt="About Travel Smart"
@@ -173,7 +173,7 @@ const About = () => {
                                 style={{ maxWidth: "100%" }}
                             />
                         </Col>
-                        <Col md="3">
+                        <Col md="3" sm="6" xs="6">
                             <img
                                 src={group115}
                                 alt="About Travel Smart"
@@ -181,7 +181,7 @@ const About = () => {
                                 style={{ maxWidth: "100%" }}
                             />
                         </Col>
-                        <Col md="3">
+                        <Col md="3" sm="6" xs="6">
                             <img
                                 src={group116}
                                 alt="About Travel Smart"

@@ -17,7 +17,6 @@ const Tour = () => {
         window.scroll(0, 0);
     }, []);
 
-    // Chỉ hiển thị các tour có từ khóa "Vietnam"
     const filteredData = popularsData.filter((val) =>
         val.location.toLowerCase().includes("vietnam")
     );

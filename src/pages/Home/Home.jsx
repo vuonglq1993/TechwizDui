@@ -1,8 +1,8 @@
-import React,{ useEffect } from "react";
+import React, { useEffect } from "react";
 import Banner from "../../components/Banner/Banner";
 import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import Features from "../../components/Features/Features";
-import { Container, Row, Col, Button} from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -13,13 +13,15 @@ import Gallery from "../../components/Gallery/Gallery";
 import Cards from "../../components/Cards/Cards";
 import { destinationsData, popularsData } from "../../utils/data";
 import PopularCard from "../../components/Cards/PopularCard";
+import Appstore from "../../assets/images/footerapp/Appstore.png";
+import CHPplay from "../../assets/images/footerapp/CHplay.png";
 
 
 const Home = () => {
   useEffect(() => {
     document.title = "Home";
     window.scroll(0, 0);
-}, []);
+  }, []);
   var settings = {
     dots: false,
     infinite: true,
@@ -128,9 +130,8 @@ const Home = () => {
                 READY FOR UNFORGATABLE TRAVEL. REMEMBER US!
               </h2>
               <p className="text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
+                Explore the world like never before! From the serene beaches of Bali to the majestic mountains of the Swiss Alps, every destination offers a unique experience waiting to be discovered. Immerse yourself in vibrant cultures, savor delicious cuisines, and create memories that will last a lifetime. Let us guide you on your next adventure!
+                {" "}
               </p>
             </Col>
             <Col md="4" className="text-center mt-3 mt-md-0">
@@ -168,15 +169,15 @@ const Home = () => {
           <Row className="align-items-center mb-5">
             <Col md="6">
               <p className="fs-2">Download the <strong>TRAVELSMART</strong> app</p>
-              <p className="fs-4">and discover special object anytime, anywhere</p>
+              <p className="fs-4 mt-2">and discover special object anytime, anywhere</p>
               <Row>
                 <Col md="6">
-                  <div><a href="/" tabIndex="0"><img class="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="bn45" /></a>
+                  <div><a href="/" tabIndex="0"><img className="img-fluid mt-3" src={Appstore} alt="appstore" /></a>
                   </div>
                 </Col>
                 <Col md="6">
-                  <div><a href="/" tabIndex="0"><img class="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45" /></a></div>
-                </Col>
+                  <div><a href="/" tabIndex="0"><img className="img-fluid mt-3" src={CHPplay} alt="chplay"/></a></div>
+                </Col>  
               </Row>
             </Col>
             <Col md="6">

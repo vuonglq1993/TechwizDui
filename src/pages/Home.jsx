@@ -189,9 +189,7 @@ const Home = () => {
                 READY FOR UNFORGATABLE TRAVEL. REMEMBER US!
               </h2>
               <p className="text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,{" "}
+              Explore the world like never before! From the serene beaches of Bali to the majestic mountains of the Swiss Alps, every destination offers a unique experience waiting to be discovered. Immerse yourself in vibrant cultures, savor delicious cuisines, and create memories that will last a lifetime. Let us guide you on your next adventure!
               </p>
             </Col>
             <Col md="4" className="text-center mt-3 mt-md-0">
