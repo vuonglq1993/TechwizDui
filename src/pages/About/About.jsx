@@ -38,8 +38,7 @@ const About = () => {
                             />
                             <h3 className="h2">Best price guarantee</h3>
                             <p className="mb-2 body-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit
+                            We offer the most competitive prices across all our travel packages, ensuring you get the best value for your money. With Travel Smart, there's no need to compromise on your dream destinations.
                             </p>
                         </Col>
                         <Col md="4" className="text-center">
@@ -51,8 +50,7 @@ const About = () => {
                             />
                             <h3 className="h2">Easy Booking</h3>
                             <p className="mb-2 body-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit
+                            Our platform is designed for hassle-free booking, so you can easily explore, compare, and book your next adventure with just a few clicks.
                             </p>
                         </Col>
                         <Col md="4" className="text-center">
@@ -64,8 +62,7 @@ const About = () => {
                             />
                             <h3 className="h2">Customer Service 24h</h3>
                             <p className="mb-2 body-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit
+                            Our dedicated customer service team is available around the clock to assist you with any inquiries, ensuring your trip is stress-free from start to finish.
                             </p>
                         </Col>
                     </Row>
@@ -73,28 +70,10 @@ const About = () => {
                         <Col md="8">
                             <h3 className="h2 fw-bold">About Travel Smart</h3>
                             <p className="mb-2 body-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Amet dictum et in feugiat.
-                                Platea in diam, est congue. Posuere sapien morbi
-                                augue ultrices. Et facilisi orci sollicitudin
-                                placerat lacus lacus nibh. Egestas semper massa
-                                viverra massa proin in morbi placerat. Pharetra
-                                nec, est non integer nisi, ut faucibus. Non, in
-                                nam sollicitudin vitae volutpat ac molestie.
-                                Turpis pellentesque sit pellentesque id cras
-                                lobortis tortor, blandit.
+                            Travel Smart is your trusted partner in travel, offering comprehensive solutions to meet all your travel needs. With over a decade of experience in the industry, we specialize in curating personalized tour packages that cater to all types of travelers—from solo adventurers to family vacationers. We aim to make every journey memorable by providing high-quality services, exclusive experiences, and unbeatable prices.
                             </p>
                             <p className="mb-2 body-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Amet dictum et in feugiat.
-                                Platea in diam, est congue. Posuere sapien morbi
-                                augue ultrices. Et facilisi orci sollicitudin
-                                placerat lacus lacus nibh. Egestas semper massa
-                                viverra massa proin in morbi placerat. Pharetra
-                                nec, est non integer nisi, ut faucibus. Non, in
-                                nam sollicitudin vitae volutpat ac molestie.
-                                Turpis pellentesque sit pellentesque id cras
-                                lobortis tortor, blandit.
+                            Our mission is to bring the world closer to you through seamless travel experiences. Whether you're looking to explore iconic cities or off-the-beaten-path destinations, we ensure your journey is packed with discovery, comfort, and excitement.
                             </p>
                         </Col>
                         <Col md="4" className="text-center">

@@ -28,11 +28,10 @@ const Contact = () => {
             <Col md="12">
               <h1 className="mb-2 h1 font-bold">
                 {" "}
-                Let's connect and get to konw each other
+                Let's connect and get to know each other
               </h1>
               <p className="body-text mt-1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard{" "}
+              At Travel Smart, we believe in building strong relationships with our customers. Whether you have a question, need assistance, or just want to chat about your travel plans, we're here for you. Reach out to us through any of the channels below, and let's make your dream journey a reality.{" "}
               </p>
             </Col>
           </Row>
@@ -47,17 +46,16 @@ const Contact = () => {
                   </div>
                   <Card.Title className="fw-bold h5">Call US</Card.Title>
                   <p className="mb-3 body-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  Have a question or need support? Our team is ready to assist you 24/7. Give us a call anytime!
                   </p>
                   <div className="d-block justify-content-between">
                     <a type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-phone me-1"></i>
-                      +12 3456 789
+                      +1 (234) 567-890
                     </a>
                     <a type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-telephone me-1"></i>
-                      +12 3456 789
+                      +1 (234) 567-891
                     </a>
                   </div>
                 </Card.Body>
@@ -74,13 +72,12 @@ const Contact = () => {
                   </div>
                   <Card.Title className="fw-bold h5">Email Us</Card.Title>
                   <p className="mb-3 body-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  Prefer to drop a message? Send us an email, and we'll get back to you within 24 hours.
                   </p>
                   <div className="d-block justify-content-between">
                     <a type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-envelope me-2"></i>
-                      demo@gmail.com
+                      support@travelsmart.com
                     </a>
                   </div>
                 </Card.Body>
@@ -97,8 +94,7 @@ const Contact = () => {
                   </div>
                   <Card.Title className="fw-bold h5">Social Media</Card.Title>
                   <p className="mb-3 body-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  Follow us on social media to stay updated on the latest travel tips.
                   </p>
                   <div className="d-block justify-content-center">
                     <ListGroup horizontal className="justify-content-center">
