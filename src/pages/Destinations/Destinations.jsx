@@ -3,6 +3,7 @@ import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs'
 import { Col, Container, Row } from 'react-bootstrap'
 import { destinationsData } from '../../utils/data'
 import Cards from '../../components/Cards/Cards'
+import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import Pagination from '../../components/Pagination/Pagination'
 
 const Destinations = () => {
@@ -21,31 +22,30 @@ const Destinations = () => {
 
 
   return (
-    <>
-        <Breadcrumbs title="Top Places" pagename="top-places" />
-
-        <section className='py-5'>
-            <Container>
-                <Row>
-                 {currentItems.map((destination, inx) => {
-                  return (
-                    <Col md="3" sm="6" key={inx} className='pb-4'>
-                    <Cards destination={destination} key={inx} />
-                    </Col>
-                  );
-                })}
-
-                </Row>
-                <Pagination
-                    pageCount={Math.ceil(destinationsData.length / itemsPerPage)}
-                    onPageChange={handlePageClick}
-                />
-            </Container>
-        </section>
-
-
-    </>
-  )
+      <>
+          <Breadcrumbs title="Top Places" pagename="top-places" />
+          <AdvanceSearch />
+          <section className="py-5">
+              <Container>
+                  <Row>
+                      {currentItems.map((destination, inx) => {
+                          return (
+                              <Col md="3" sm="6" key={inx} className="pb-4">
+                                  <Cards destination={destination} key={inx} />
+                              </Col>
+                          );
+                      })}
+                  </Row>
+                  <Pagination
+                      pageCount={Math.ceil(
+                          destinationsData.length / itemsPerPage
+                      )}
+                      onPageChange={handlePageClick}
+                  />
+              </Container>
+          </section>
+      </>
+  );
 }
 
 export default Destinations

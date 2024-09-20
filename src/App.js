@@ -24,7 +24,7 @@ function App() {
               <Route path="about-us" element={<About />} />
               <Route path="contact-us" element={<Contact />} />
               <Route path="tours" element={<Tours />} />
-              <Route path="fake-search" element={<Tour />} />
+              <Route path="nigga" element={<Tour />} />
               <Route path="tour-details" element={<TourDetails />} />
               <Route path="booking" element={<Booking />} />
               <Route path="top-places" element={<TopPalces />} />

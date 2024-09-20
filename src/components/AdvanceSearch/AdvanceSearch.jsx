@@ -81,7 +81,7 @@ const AdvanceSearch = () => {
                                   />
                               </div>
                               <div className="item-search bd-none">
-                                  <Link to="fake-search">
+                                  <Link to="/nigga">
                                       <Button className="primaryBtn flex-even d-flex justify-content-center">
                                           <i className="bi bi-search me-2"></i>{" "}
                                           Search
