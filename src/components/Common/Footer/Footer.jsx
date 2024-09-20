@@ -2,6 +2,7 @@ import React from "react";
 import "../Footer/footer.css";
 import { Col, Container, Row, ListGroup } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import TawkToChat from "../../tawktochat/tawktochat"; // Import component
 
 const Footer = () => {
   return (
@@ -91,6 +92,10 @@ const Footer = () => {
           </Row>
         </Container>
       </div>
+
+
+      <TawkToChat />
+
     </footer>
   );
 };

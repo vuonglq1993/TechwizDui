@@ -88,6 +88,20 @@ export const destinationsData = [
     image: tour11,
     link: "tour-name",
   },
+  {
+    id: 8,
+    name: "Anchorage",
+    tours: "5 tours and activities",
+    image: tour6,
+    link: "tour-name",
+  },
+  {
+    id: 9,
+    name: "Santiago",
+    tours: "4 tours and activities",
+    image: tour5,
+    link: "tour-name",
+  },
 ];
 
 export const popularsData = [
