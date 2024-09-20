@@ -34,11 +34,11 @@ const AdvanceSearch = () => {
                                       label="Location"
                                       onSelect={selectedLocation}
                                       options={[
-                                          "Dinh Doc Lap",
-                                          "Ho Ba Mau, Ha Noi",
+                                          "Dinh Doc Lap,Viet Nam",
+                                          "Ho Ba Mau, Viet Nam",
                                           "Phu Ket, Thailand",
-                                          "Vinh Ha Long",
-                                          "Lang Co, Hue",
+                                          "Vinh Ha Long, Viet Nam",
+                                          "Lang Co, Hue, Viet Nam",
                                       ]}
                                   />
                               </div>
@@ -78,6 +78,9 @@ const AdvanceSearch = () => {
                                           "2 adults, 1 children",
                                           "	2 adults, 1 children",
                                           "2 adults, 3 children",
+                                          "1 adult, 2 children",
+                                          "1 adult, 3 children",
+                                          "1 adult, 1 children"
                                       ]}
                                   />
                               </div>

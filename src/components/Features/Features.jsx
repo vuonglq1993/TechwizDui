@@ -1,63 +1,12 @@
 import React from "react";
 import "../Features/features.css";
-
 import feature5 from "../../assets/images/feature/preview.png";
-
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 
 
 const Features = () => {
-  var settings = {
-    dots: false,
-    infinite: true,
-    autoplay:false,
-    autoplaySpeed:1500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          infinite: false,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: false,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          autoplay: true,
-          prevArrow:false,
-          nextArrow:false,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          prevArrow:false,
-          nextArrow:false,
-        },
-      },
-    ],
-  };
 
-  
   return (
     <>
     

@@ -1,22 +1,21 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import "./BookingModal.css"; // Tạo file CSS cho modal
-import logo from "../../assets/images/logo/logo co màu.png"; // Đường dẫn tới logo của bạn
+import "./BookingModal.css"; 
+import logo from "../../assets/images/logo/logo co màu.png"; 
 
 const BookingModal = ({ isOpen, toggle }) => {
-    const [showSuccessPopup, setShowSuccessPopup] = useState(false); // State để kiểm soát popup thành công
+    const [showSuccessPopup, setShowSuccessPopup] = useState(false); 
 
     if (!isOpen) return null;
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setShowSuccessPopup(true); // Hiển thị popup thành công
+        setShowSuccessPopup(true); 
 
-        // Đặt thời gian chờ 3 giây trước khi chuyển về trang chủ
         setTimeout(() => {
-            setShowSuccessPopup(false); // Tắt popup sau 3 giây
-            toggle(); // Đóng modal
-            window.location.href = "/"; // Chuyển về trang home
+            setShowSuccessPopup(false); 
+            toggle(); 
+            window.location.href = "/"; 
         }, 3000);
     };
 
@@ -111,7 +110,6 @@ const BookingModal = ({ isOpen, toggle }) => {
                     </div>
                 </form>
 
-                {/* Hiển thị popup thành công nếu state showSuccessPopup là true */}
                 {showSuccessPopup && (
                     <div className="success-popup">
                         <div className="popup-content">
