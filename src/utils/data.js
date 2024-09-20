@@ -107,7 +107,7 @@ export const popularsData = [
     id: 1,
     title: "Kiwiana Panorama",
     image: Kiwiana,
-    location: "European Way, Southampton, United Kingdom",
+    location: "European Way, Southampton, Vietnam",
     category: ["River Cruise", "Wildlife"],
     days: "2 days - 1 nights",
     price: 87,
@@ -295,14 +295,15 @@ export const tourDetails = {
 };
 
 export const location = [
-  "Bali",
-  "Tokyo",
-  "Bangkok",
-  "Cancun",
-  "Nha Trang",
-  "Phuket",
-  "Malaysia",
-  "Paris",
+    "Vietnam",
+    "Bali",
+    "Tokyo",
+    "Bangkok",
+    "Cancun",
+    "Nha Trang",
+    "Phuket",
+    "Malaysia",
+    "Paris",
 ];
 
 export const Categories = [

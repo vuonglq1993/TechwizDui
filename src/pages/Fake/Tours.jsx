@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
-import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import { Container, Row, Col, Offcanvas } from "react-bootstrap";
 import PopularCard from "../../components/Cards/PopularCard";
 import { popularsData } from "../../utils/data";
 import Filters from "./Filters";
-import "../Tours/tour.css";
+import "../Fake/tour.css";
 
 const Tour = () => {
     const [show, setShow] = useState(false);
@@ -14,13 +13,19 @@ const Tour = () => {
     const handleShow = () => setShow(true);
 
     useEffect(() => {
-        document.title = " Tours   ";
+        document.title = "Tours";
         window.scroll(0, 0);
     }, []);
+
+    // Chỉ hiển thị các tour có từ khóa "Vietnam"
+    const filteredData = popularsData.filter((val) =>
+        val.location.toLowerCase().includes("vietnam")
+    );
+
     return (
         <>
-            <Breadcrumbs title="Tours" pagename="Tours" />
-            
+            <Breadcrumbs title="Search" pagename="Search" />
+
             <section className="py-5 tour_list">
                 <Container>
                     <Row>
@@ -39,7 +44,14 @@ const Tour = () => {
                         </Col>
                         <Col xl="9" lg="8" md="12" sm="12">
                             <Row>
-                                {popularsData.map((val, inx) => {
+                                <Col md="12">
+                                    <h3 className="h2 fw-bold main_heading">
+                                        Search by word "Vietnam"
+                                    </h3>
+                                </Col>
+                            </Row>
+                            <Row>
+                                {filteredData.map((val, inx) => {
                                     return (
                                         <Col
                                             xl={4}

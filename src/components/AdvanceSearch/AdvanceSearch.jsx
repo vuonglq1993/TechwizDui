@@ -6,6 +6,7 @@ import "../AdvanceSearch/search.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 // import
 import CustomDropdown from "../CustomDropdown/CustomDropdown";
+import { Link } from "react-router-dom";
 
 const AdvanceSearch = () => {
   const [startDate, setStartDate] = useState(new Date());
@@ -20,72 +21,79 @@ const AdvanceSearch = () => {
   }
 
   return (
-    <>
-      <section className="box-search-advance">
-        <Container>
-          <Row>
-            <Col md={12} xs={12}>
-              <div className="box-search shadow-sm">
-                <div className="item-search">
-                  {/*  Using Props to Pass Data */}
-                  <CustomDropdown
-                    label="Location"
-                    onSelect={selectedLocation}
-                    options={[
-                      "Dinh Doc Lap",
-                      "Ho Ba Mau, Ha Noi",
-                      "Phu Ket, Thailand",
-                      "Vinh Ha Long",
-                      "Lang Co, Hue",
-                    ]}
-                  />
-                </div>
-                <div className="item-search item-search-2">
-                  <label className="item-search-label"> Check in </label>
-                  <DatePicker
-                    selected={startDate}
-                    onChange={(date) => setStartDate(date)}
-                    selectsStart
-                    startDate={startDate}
-                    endDate={endDate}
-                   
-                    dateFormat="dd, MMMM, yyyy"
-                  />
-                </div>
-                <div className="item-search item-search-2">
-                  <label className="item-search-label"> Check Out </label>
-                  <DatePicker
-                    selected={endDate}
-                    onChange={(date) => setEndDate(date)}
-                    selectsEnd
-                    startDate={endDate}
-                    endDate={startDate}
-                    dateFormat="dd, MMMM, yyyy"
-                  />
-                </div>
-                <div className="item-search bd-none">
-                  <CustomDropdown
-                    label="Guest"
-                    onSelect={selectedGuest}
-                    options={[
-                      "2 adults, 1 children",
-                      "	2 adults, 1 children",
-                      "2 adults, 3 children",
-                    ]}
-                  />
-                </div>
-                <div className="item-search bd-none">
-                    <Button className="primaryBtn flex-even d-flex justify-content-center">
-                    <i className="bi bi-search me-2"></i> Search 
-                    </Button>
-
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-    </>
+      <>
+          <section className="box-search-advance">
+              <Container>
+                  <Row>
+                      <Col md={12} xs={12}>
+                          <div className="box-search shadow-sm">
+                              <div className="item-search">
+                                  {/*  Using Props to Pass Data */}
+                                  <CustomDropdown
+                                      label="Location"
+                                      onSelect={selectedLocation}
+                                      options={[
+                                          "Dinh Doc Lap",
+                                          "Ho Ba Mau, Ha Noi",
+                                          "Phu Ket, Thailand",
+                                          "Vinh Ha Long",
+                                          "Lang Co, Hue",
+                                      ]}
+                                  />
+                              </div>
+                              <div className="item-search item-search-2">
+                                  <label className="item-search-label">
+                                      {" "}
+                                      Check in{" "}
+                                  </label>
+                                  <DatePicker
+                                      selected={startDate}
+                                      onChange={(date) => setStartDate(date)}
+                                      selectsStart
+                                      startDate={startDate}
+                                      endDate={endDate}
+                                      dateFormat="dd, MMMM, yyyy"
+                                  />
+                              </div>
+                              <div className="item-search item-search-2">
+                                  <label className="item-search-label">
+                                      {" "}
+                                      Check Out{" "}
+                                  </label>
+                                  <DatePicker
+                                      selected={endDate}
+                                      onChange={(date) => setEndDate(date)}
+                                      selectsEnd
+                                      startDate={endDate}
+                                      endDate={startDate}
+                                      dateFormat="dd, MMMM, yyyy"
+                                  />
+                              </div>
+                              <div className="item-search bd-none">
+                                  <CustomDropdown
+                                      label="Guest"
+                                      onSelect={selectedGuest}
+                                      options={[
+                                          "2 adults, 1 children",
+                                          "	2 adults, 1 children",
+                                          "2 adults, 3 children",
+                                      ]}
+                                  />
+                              </div>
+                              <div className="item-search bd-none">
+                                  <Link to="fake-search">
+                                      <Button className="primaryBtn flex-even d-flex justify-content-center">
+                                          <i className="bi bi-search me-2"></i>{" "}
+                                          Search
+                                      </Button>
+                                  </Link>
+                              </div>
+                          </div>
+                      </Col>
+                  </Row>
+              </Container>
+          </section>
+      </>
   );
 };
 
