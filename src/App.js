@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route } from 'react-router-dom';
 import "./App.css";
 import Home from "./pages/Home/Home";
 import Header from "./components/Common/Header/Header";
@@ -9,7 +9,7 @@ import Tours from "./pages/Tours/Tours";
 import Tour from "./pages/Fake/Tours";
 import TourDetails from "./pages/Tours/TourDetails";
 import Booking from "./pages/Booking/Booking";
-import TopPalces from "./pages/Destinations/Destinations";
+import TopPalces from "./pages/Destinations/Destinations";  
 import PhotoGallery from "./pages/PhotoGallery/PhotoGallery";
 import News from "./pages/News/News";
 
@@ -17,7 +17,7 @@ function App() {
   return (
       <>
           <Header />
-          <Routes>
+          <Router>
               <Route path="/" element={<Home />} />
               <Route path="/TechwizDui" element={<Home />} />
               <Route path="/about-us" element={<About />} />
@@ -29,7 +29,7 @@ function App() {
               <Route path="/top-places" element={<TopPalces />} />
               <Route path="/gallery" element={<PhotoGallery />} />
               <Route path="/News" element={<News />} />
-          </Routes>
+          </Router>
           <Footer />
       </>
   );
