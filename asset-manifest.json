@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TechwizDui/static/css/main.f95a3102.css",
-    "main.js": "/TechwizDui/static/js/main.930ba545.js",
+    "main.js": "/TechwizDui/static/js/main.7fff507f.js",
     "static/media/bannervideo.mp4": "/TechwizDui/static/media/bannervideo.2441be845d9181c2bdf8.mp4",
     "static/media/g7.jpg": "/TechwizDui/static/media/g7.8890dd2efefa6b22bdb1.jpg",
     "static/media/g6.jpg": "/TechwizDui/static/media/g6.4c2c6a60924814394036.jpg",
@@ -47,7 +47,6 @@
     "static/media/Appstore.png": "/TechwizDui/static/media/Appstore.4eb5fceb810a49df9d10.png",
     "static/media/tung.jpg": "/TechwizDui/static/media/tung.f5344fbeee99c4736569.jpg",
     "static/media/huy.jpg": "/TechwizDui/static/media/huy.6103df58d8600a555c97.jpg",
-    "static/media/thay.jpg": "/TechwizDui/static/media/thay.26cb1866ae91005f84ce.jpg",
     "static/media/yyy.jpg": "/TechwizDui/static/media/yyy.7eb784987381810e4996.jpg",
     "static/media/slick.svg": "/TechwizDui/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/TechwizDui/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -55,10 +54,10 @@
     "static/media/slick.woff": "/TechwizDui/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/TechwizDui/index.html",
     "main.f95a3102.css.map": "/TechwizDui/static/css/main.f95a3102.css.map",
-    "main.930ba545.js.map": "/TechwizDui/static/js/main.930ba545.js.map"
+    "main.7fff507f.js.map": "/TechwizDui/static/js/main.7fff507f.js.map"
   },
   "entrypoints": [
     "static/css/main.f95a3102.css",
-    "static/js/main.930ba545.js"
+    "static/js/main.7fff507f.js"
   ]
 }
