@@ -14,7 +14,6 @@ import thai from "../../assets/images/us/yyy.jpg";
 import vuong from "../../assets/images/us/vuong.jpg";
 import huy from "../../assets/images/us/huy.jpg";
 import tung from "../../assets/images/us/tung.jpg";
-import thay from "../../assets/images/us/thay.jpg";
 
 const About = () => {
   const Usdata = [
@@ -34,20 +33,13 @@ const About = () => {
     },
     {
       id: 3,
-      img: thay,
-      name: "Trinh Quang Hoa",
-      position:"CEO & Founder",
-      desc: "Over 10 years of experience in the travel industry, leading Travel Smart with a vision to innovate travel solutions.",
-    },
-    {
-      id: 4,
       img: huy,
       name: "Dang Quang Huy",
       position:"Chief Operations Officer (COO)",
       desc: "7 years of expertise in optimizing backend processes for a seamless travel experience.",
     },
     {
-      id: 5,
+      id: 4,
       img: thai,
       name: "Chu Ng Quang Thai",
       position:"Head of Customer Experience",
