@@ -19,16 +19,16 @@ function App() {
           <Header />
           <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="TechwizDui" element={<Home />} />
-              <Route path="about-us" element={<About />} />
-              <Route path="contact-us" element={<Contact />} />
-              <Route path="tours" element={<Tours />} />
-              <Route path="search" element={<Tour />} />
-              <Route path="tour-details" element={<TourDetails />} />
-              <Route path="booking" element={<Booking />} />
-              <Route path="top-places" element={<TopPalces />} />
-              <Route path="gallery" element={<PhotoGallery />} />
-              <Route path="News" element={<News />} />
+              <Route path="/TechwizDui" element={<Home />} />
+              <Route path="/about-us" element={<About />} />
+              <Route path="/contact-us" element={<Contact />} />
+              <Route path="/tours" element={<Tours />} />
+              <Route path="/search" element={<Tour />} />
+              <Route path="/tour-details" element={<TourDetails />} />
+              <Route path="/booking" element={<Booking />} />
+              <Route path="/top-places" element={<TopPalces />} />
+              <Route path="/gallery" element={<PhotoGallery />} />
+              <Route path="/News" element={<News />} />
           </Routes>
           <Footer />
       </>
